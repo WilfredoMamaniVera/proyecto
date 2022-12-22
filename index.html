@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+	<title>ProyectoFinal</title>
+	<link rel="stylesheet" href="proyecto.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+	<nav>
+		<ul>
+	  
+			<li><a href="#fondo">Inicio</a></li>
+			<li><a href="historia.html">Historia</a></li>
+			<li><a href="soundtrack.html">Soundtrack</a></li>	
+			<li><a href="galeria.html">Galeria</a></li>
+		</ul>
+	</nav>
+	
+  
+  <div id="fondo">
+	<h1 class="nombre">Wilfredo Mamani Vera</h1>
+	<h1 class="presentacion"> PERSONA <br>  SERIES</h1>
+
+
+    <script type= "text/javascript">
+      const bg=document.getElementById('fondo');
+      window.addEventListener('scroll',function()
+      {
+        bg.style.backgroundSize = 95 - +window.pageYOffset/12+'%'
+        bg.style.opacity = 1- +window.pageYOffset/700+' '
+      }
+        
+      
+      )
+    
+    
+    
+    </script>
+
+
+  </div>
+
+
+  
+  <section id="inicio">
+	
+
+
+
+    <h2 class="introduccion">Introduccion</h2>
+	<h2 class="pregunta">
+		Que es Persona?
+	</h2>
+	
+	<p class="respuesta">
+    Persona es un spin-off de <br>
+	la serie JRPG Shin Megami Tensei.<br>
+	<br>conocida por ser extrañas<br>
+	oscuras y atractivas.<br>
+	<br>También es conocida por tener<br>
+	lugar en un mundo moderno,en lugar<br>
+	de un mundo de fantasía,mientras<br>
+	infunden temas de lo oculto,<br>
+	la mitología y las cartas del Tarot.
+
+   
+	</p>
+	
+	<h2 class="pregunta1">
+      De que trata Persona?
+	</h2>
+	<p class="respuesta1">
+	La base de las historias en la mayoría<br>
+	de veces se centra en hallar la solución<br>
+	de algun problema sobrenatural.<br> 
+
+	<br>Para esto se utilizan Personas que son<br>
+	las representaciones del subconciente<br>
+	de las personas es decir una entidad<br>
+	basada en tus miedos,deseos,vision,etc.
+
+		
+	</p>
+	<h2 class="pregunta2">
+		Que temas toca persona
+	</h2>
+	<p class="respuesta2">
+		Persona suele estar ligada a los temas<br>
+		enfocados en la reflexion acerca de los<br> 
+		miedos y dificultades de una vida moderna.<br>
+
+		
+	</p>
+	
+  
+
+  </section>	
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+	AOS.init(
+	  {
+		  duration:2000,
+		  once: true,
+	  });
+  </script>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+    
+	
+
+
+	
+
+
+	
+	  
+
+
+	<audio id="musica">
+		<source src="musica/y2mate.com - Persona 5  Beneath the Mask Sub español.mp3">
+	</audio>
+
+	<script>	
+		window.addEventListener('dblclick',()=>
+      {
+		document.getElementById("musica").play();
+      }
+
+      );	
+
+
+	</script>
+  
+
+
+</body>
+</html>

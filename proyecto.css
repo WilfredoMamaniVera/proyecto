@@ -1,0 +1,230 @@
+
+
+@font-face {
+	font-family: "BM space A9";
+	src: url(font/BMSPA___.TTF) format('truetype');
+}
+@font-face {
+	font-family: "p5hatty";
+	src: url(font/p5hatty.ttf) format('truetype');
+}
+@font-face {
+	font-family: "Mongolian Baiti";
+	src: url(font/monbaiti.ttf) format('truetype');
+}
+
+*{ 	
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme';
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav{	
+	
+	background: #000;
+	position: fixed;
+	top: 40px;
+	right: 50%;
+	transform: translateX(50%);
+	border: 4px solid rgb(14, 13, 13);
+	border-radius: 50px;
+    
+
+
+}
+nav ul{
+	list-style: none;
+	justify-content: center;
+
+	display:flex
+
+}
+nav ul li a{
+	
+  display: inline-block;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: "BM space A9";
+
+}
+nav ul li a:hover
+{
+  background: rgb(221, 214, 16);
+  border-radius: 50px;
+
+}
+
+
+#fondo
+{
+  
+  
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("imagenes/fondo.jpg");
+  background-size: 96%;
+  background-position: center;
+  background-attachment: center;
+
+}
+
+
+.presentacion
+{
+    text-align: center;
+	font-size: 5em;
+  color: white	;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+transform: translateX(-50%) translateY(-50%);
+font-family: "BM space A9";
+opacity: 70%;
+}
+.nombre
+{
+	top: 2%;
+	left: 3%;
+	color: black;
+	font-size: 1em;
+	position: absolute;
+	font-family: "BM space A9";
+    opacity: 60%;
+
+
+}
+
+
+
+
+.introduccion
+{
+	color: red;
+	font-family: 'BM space A9';
+	font-size: 2.5em;
+	top: 20%;
+	text-align: center;
+	position:relative
+	
+
+	
+	
+		
+	
+
+}
+.pregunta
+{
+ color: red;
+ font-family: 'BM space A9';
+ margin-left: 100px;
+ text-align: left;
+ top: 25%;
+ position: relative;
+ 
+}
+
+
+
+
+
+
+
+
+.respuesta
+
+{
+	font-size: 1.4em;
+	color: black;
+	margin-left: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	text-align: left;
+	top: 26%;
+	left: 5%;
+	position: relative;
+	
+
+
+}
+.pregunta1
+{
+color: red;
+ font-family: 'BM space A9';
+ top: -118px;
+ text-align: center;
+ 
+ position: relative;
+	
+
+
+}
+.respuesta1
+{
+	font-size: 1.5em;
+	color: black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+	text-align: center;
+	top: -110px;
+	position: relative;
+	
+
+}
+.pregunta2{
+margin-right: 40px;
+color: red;
+ font-family: 'BM space A9';
+ 
+ text-align: right	;
+ top: -48%;
+ position: relative;
+ 
+}
+.respuesta2
+{
+	font-size: 1.5em;
+	color: black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left: 67%;
+
+	text-align: center;
+	top: -47%;
+	position: relative;
+	
+}
+
+
+
+#inicio
+
+{
+	width: 100%;
+	height: 100vh;
+	background: url("imagenes/5.jpg");
+	background-size: 100%;
+	
+
+}
+body
+{
+	min-height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+img
+{
+	position: relative;
+
+	width: 100%;
+	height: 20%;
+	border-radius: 5px;
+}

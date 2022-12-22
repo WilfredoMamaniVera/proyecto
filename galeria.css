@@ -1,0 +1,201 @@
+@font-face {
+	font-family: "BM space A9";
+	src: url(font/BMSPA___.TTF) format('truetype');
+}
+
+@font-face {
+	font-family: "p5hatty";
+	src: url(font/p5hatty.ttf) format('truetype');
+}
+@font-face {
+	font-family: "Mongolian Baiti";
+	src: url(font/monbaiti.ttf) format('truetype');
+}
+
+
+
+.slider
+{
+    margin-top: 10%;
+	margin-left: 25%;
+	width:50%;
+	height: 50%;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.slider ul
+
+{
+	display: flex;
+	padding: 0;
+	width: 600%;
+
+
+   animation: cambio 20s infinite alternate;
+   animation-timing-function: ease-in;
+
+}
+.slider li
+{
+	width: 100%;
+	list-style: none;
+
+}
+.slider img
+{
+	width: 100%;
+}
+
+@keyframes cambio
+{
+	0%{margin-left: 0;}
+	10%{margin-left: 0;}
+
+    15%{margin-left: -100%;}
+	25%{margin-left: -100%;}
+
+	30%{margin-left: -200%;}
+	40%{margin-left: -200%;}
+
+	45%{margin-left: -300%;}
+	55%{margin-left: -300%;}
+
+	60%{margin-left: -400%;}
+	75%{margin-left: -400%;}
+
+	80%{margin-left: -500%;}
+	100%{margin-left: -500%;}
+
+	
+}
+section
+{
+	height: 112vh;
+}
+*{ 	
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme';
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav{	
+	
+	padding: 10px;
+    background-repeat: no-repeat;
+    background: #000;
+	position: sticky;
+		
+    
+    
+
+
+}
+nav ul{
+    
+	list-style: none;
+	justify-content: center;
+
+	display:flex
+
+}
+nav ul li a{
+	
+  
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: "BM space A9";
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+
+    border-color: #000;
+    
+    
+}
+nav ul li a:hover
+{
+  background: rgba(44, 17, 182, 0.421);
+  border-radius: 50px;
+  
+
+}
+
+#persona4
+{
+	background: url(imagenes/persona4/15.png);
+	background-repeat: none;
+	position: relative;
+	background-size:  100% 100%;
+	overflow: hidden;
+
+
+}
+#persona3
+{
+	background: url(imagenes/sliderpersona3/p3.png);
+	background-repeat: none;
+	position: relative;
+	background-size:  100% 100%;
+	overflow: hidden;
+
+
+}
+#persona5
+{
+	background: url(imagenes/persona5/aaaa.png);
+	background-repeat: none;
+	position: relative;
+	background-size:  100% 100%;
+	overflow: hidden;
+
+
+}
+
+
+.persona3
+{
+
+font-size: 4em;
+text-align: center;
+font-family: "BM space A9";
+top: 17%;
+position: absolute;
+left: 35%;
+text-shadow: 1px 4px 0px rgba(17, 15, 128, 0.558);
+
+
+
+}
+.persona4
+{
+font-size: 6em;
+text-align: center;
+font-family: "Mongolian Baiti";
+top: 12%;
+position: absolute;
+left: 38%;
+text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+
+
+
+}
+.persona5
+{
+font-size: 7em;
+text-align: center;
+font-family: "p5hatty";
+top: 12%;
+position: absolute;
+left: 37%;
+color: red;
+text-shadow: 4px 8px 8px black;
+
+
+
+}

@@ -1,0 +1,601 @@
+@font-face {
+	font-family: "BM space A9";
+	src: url(font/BMSPA___.TTF) format('truetype');
+}
+@font-face {
+	font-family: "p5hatty";
+	src: url(font/p5hatty.ttf) format('truetype');
+}
+@font-face {
+	font-family: "Mongolian Baiti";
+	src: url(font/monbaiti.ttf) format('truetype');
+}
+
+*{ 	
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme';
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav{	
+	
+	
+    
+    background-repeat: no-repeat;
+    background: #000;
+	position: sticky;
+		
+    
+    
+
+
+}
+nav ul{
+    
+	list-style: none;
+	justify-content: center;
+
+	display:flex
+
+}
+nav ul li a{
+	
+  
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: "BM space A9";
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+
+    border-color: #000;
+    
+    
+}
+nav ul li a:hover
+{
+  background: rgba(44, 17, 182, 0.421);
+  border-radius: 50px;
+  
+
+}
+body {
+    
+    align-items: center;
+    justify-content: center;    
+    
+    
+    
+}
+
+
+#inicio 
+{
+ background: url(imagenes/1.8.webp);
+ 
+ width: 100% 100%  ;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ 
+
+ 
+}
+.tipo
+{   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#inicio .titilo
+{
+    color: blue;
+    top: 29%;
+    margin-left: 17%;
+    position: relative;
+    font-family: "BM space A9";
+
+    
+}
+#inicio .titilo1
+{
+    color: rgb(211, 224, 24);
+    text-shadow: rgba(0, 0, 0, 0.468);
+    top: 25%;
+    margin-left: 49%;
+    position: relative;
+    font-family: "BM space A9";
+
+    
+}
+#inicio .titilo2
+{
+    color:red;
+    top: 22%;
+    margin-left: 81%;
+    position: relative;
+    font-family: "BM space A9";
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    background: var(--i);
+    margin-left: 220px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+    background-size: 100% 100%;
+    display: inline-block;
+    position:static;
+    margin-top: 200px;
+    
+    
+    
+    
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+
+    
+}
+
+.content h2, a {
+    color: white;
+    margin: 10px 0;
+    
+}
+.tipografia
+{
+    
+    font-family: "BM space A9";
+    
+
+}
+
+.card:hover .content {
+    opacity: 1;
+}
+.titulo .persona
+{
+  font-size: 3.8em;
+  color:black	;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%) translateY(-50%);
+font-family: "BM space A9";
+text-align: center;
+
+
+}
+
+section
+{
+    height: 115vh;
+    
+    
+
+}
+
+
+
+
+#persona3
+{
+   background: url(imagenes/sliderpersona3/p3.png);
+   width: 100% 100%  ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   overflow: hidden;
+
+   
+   
+   
+}
+#persona4
+{
+    background: url(imagenes/1.12.jpg);
+   width: 100% 100%  ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   overflow: hidden;
+
+   
+}
+#persona5
+{
+    background: url(imagenes/1.11.png);
+   width: 100% 100%  ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   overflow: hidden;
+
+}
+
+.enlace
+{ 
+    color: red;
+
+
+}
+b
+{
+    font-family: "BM space A9";
+
+    color: black;
+}
+
+
+.pe
+
+{
+font-size: 4.5em;
+align-items: center;
+text-align: center;
+font-family: "BM space A9";
+top: 10%;
+position: relative;
+left: 0;
+text-shadow: 1px 4px 0px rgba(17, 15, 128, 0.558);
+
+}
+.Historiapersona3
+{
+    font-size: 2.4em;
+    align-items: center;
+    text-align: center;
+    font-family: "BM space A9";
+    top: 16%;
+    position: relative;
+    left: -15%;
+    text-shadow: 1px 4px 0px rgba(17, 15, 128, 0.558);
+}
+.historiapersona3
+{
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+    font-family:sans-serif;
+    top: 18%;
+    position: relative;
+    left: -15%;
+    color: black;
+    
+
+
+
+}
+.mensajepersona3
+{
+    font-size: 2.4em;
+    align-items: center;
+    text-align: center;
+    font-family: "BM space A9";
+    top: -45%;
+    position: relative;
+    left: 15%;
+    text-shadow: 1px 4px 0px rgba(17, 15, 128, 0.558);
+}
+.mensajepersona31
+{
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: -44%;
+    position: relative;
+    left: 15%; 
+}
+
+
+
+
+.tipo1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+
+
+}
+.pea
+{
+    position: absolute;
+	top: 248%;
+	left: 36%;
+	font-family: "BM space A9";	
+	font-size: 3.8em;
+	text-align: center	;
+	color: red;
+}
+.persona3a
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 28%;
+    left: 15%;
+}
+.persona3b
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 23%;
+    left: 50%;
+}
+.persona3c
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 18%;
+    left: 78%;
+}
+.tarjetaspersona3
+
+{
+    background: url(imagenes/5.jpg);
+   width: 100% 100%  ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   overflow: hidden;
+}
+
+.pe1
+{
+    font-size: 5em;
+ align-items: center;
+text-align: center;
+font-family: "Mongolian Baiti";
+top: 10%;
+position: relative;
+left: 0;
+text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+color: black;
+}
+.Historiapersona4
+{
+    font-size: 2.4em;
+    align-items: center;
+    text-align: center;
+    font-family: "Mongolian Baiti";
+    top: 12%;
+    position: relative;
+    left: -18%;
+    text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+
+}   
+.historiapersona4
+{
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    top: 13%;
+    position: relative;
+    left: -18%;
+    color:red;
+    font-weight:800;
+
+}
+.mensajepersona4
+{
+    font-size: 2.4em;
+    align-items: center;
+    text-align: center;
+    font-family: "Mongolian Baiti";
+    top: -50%;
+    position: relative;
+    left: 15%;
+    text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+
+}
+.mensajepersona41
+{
+    font-size: 1.2em;
+    align-items: center;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    top: -49%;
+    position: relative;
+    left: 15%;
+    color:rgb(207, 10, 10);
+    font-weight:800;
+}
+
+.titulo1
+{
+  font-size: 5em;
+  position: absolute;
+  font-family:"Mongolian Baiti" ;
+  top: 480%;
+  left: 40%;
+  text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+
+}
+.tarjetaspersona4
+{
+    background: url(imagenes/persona4/332682.png);
+    width: 100% 100%  ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   overflow: hidden;
+
+
+
+}
+.person4a
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 28%;
+    left: 15%;
+}
+.persona4b
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 23%;
+    left: 45%;
+}
+.persona4c
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 18%;
+    left: 79%;
+}
+.tipografia1
+{
+    text-align: center;
+    font-size: 1.4em;
+    font-family: "BM space A9";
+
+
+}
+.tipo12
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+
+.Historiapersona5
+{
+    font-size: 2.4em;
+    align-items: center;
+    text-align: center;
+    font-family: "Mongolian Baiti";
+    top: 12%;
+    position: relative;
+    left: -18%;
+    color: red;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.814);
+}
+.historiapersona5
+{
+    font-size: 1.6em;
+    align-items: center;
+    text-align: center;
+    font-family:"p5hatty"; 
+    top: 13%;
+    position: relative;
+    left: -18%;
+    color:white;
+    text-shadow: 1px 4px 0px rgba(18, 18, 16, 0.8);
+
+    
+}
+
+.mensajepersona5
+{
+    font-size: 2.4em;
+    align-items: center;
+    text-align: center;
+    font-family: "Mongolian Baiti";
+    top: -47%;
+    position: relative;
+    left: 15%;
+    color: red;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.814);
+}
+.mensajepersona51
+{
+    font-size: 1.6em;
+    align-items: center;
+    text-align: center;
+    font-family:"p5hatty"; 
+    top: -47%;
+    position: relative;
+    left: 18%;
+    color:white;
+    text-shadow: 1px 4px 0px rgba(18, 18, 16, 0.8);
+
+}
+.pe12
+{
+    font-size: 5em;
+    position: absolute;
+    font-family:"Mongolian Baiti" ;
+    top: 585%;
+    left: 40%;
+    color: red;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.814);
+}
+.tarjetaspersona5
+{
+    background: url(imagenes/persona5/p5.4.jpg);
+    width: 100% 100%  ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   overflow: hidden;
+}
+
+.titulo2
+{
+    font-size: 5em;
+    position: absolute;
+    font-family:"Mongolian Baiti" ;
+    top: 705%;
+    left: 40%;
+    color: red;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.814);
+}
+.person5a
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 28%;
+    left: 15%;
+    color: red;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.814);
+
+}
+.persona5b
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 23%;
+    left: 45%;
+    color: red;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.814);
+}
+.persona5c
+{
+    font-size: 2.5em;
+    position: relative;
+    top: 18%;
+    left: 79%;
+    color: red;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.814);
+}

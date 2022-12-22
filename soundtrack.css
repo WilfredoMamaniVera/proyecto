@@ -1,0 +1,387 @@
+@font-face {
+	font-family: "BM space A9";
+	src: url(font/BMSPA___.TTF) format('truetype');
+}
+
+@font-face {
+	font-family: "p5hatty";
+	src: url(font/p5hatty.ttf) format('truetype');
+}
+@font-face {
+	font-family: "Mongolian Baiti";
+	src: url(font/monbaiti.ttf) format('truetype');
+}
+
+*{ 	
+	margin: 0;
+	padding: 0;
+	font-family: 'Acme';
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav{	
+	
+	
+    padding: 10px	;
+    background-repeat: no-repeat;
+    background: #000;
+	position: sticky;
+		
+    
+    
+
+
+}
+nav ul{
+    
+	list-style: none;
+	justify-content: center;
+
+	display:flex
+
+}
+nav ul li a{
+	
+  
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: "BM space A9";
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+
+    border-color: #000;
+    
+    
+}
+nav ul li a:hover
+{
+  background: rgba(44, 17, 182, 0.421);
+  border-radius: 50px;
+  
+
+}
+
+
+
+
+
+
+
+
+video
+{
+	position:relative;
+	top: 15%;
+	padding-top: 38px;
+	margin: auto;
+	display:inline-block;
+	margin-left: 100px;
+	border-radius: 10px;
+
+
+
+	
+}
+.titilo
+{
+	position: absolute;
+	top: 15%;
+	left: 38%;
+	font-family: "BM space A9";	
+	font-size: 2.3em;
+	text-align: center	;
+	text-shadow: 2px 6px 0px rgba(16, 10, 194, 0.8);
+	color: black;
+
+
+
+
+}
+.pi
+{
+	position: absolute;
+	top: 29%;
+	left: 10%;
+	font-family: "BM space A9";
+	font-size: 1.3em;
+    color:red;
+
+	
+}
+#in
+{
+	background:url(imagenes/portada3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 110vh;
+	
+}
+.a
+{	
+	position: absolute;
+	top: 29%;
+	left: 37%;
+	font-family: "BM space A9";
+	font-size: 1.3em;
+	color: red;
+}
+.q{
+	position: absolute;
+	top: 29%;
+	left: 70%;
+	font-family: "BM space A9";
+	font-size: 1.3em;
+	color: red;
+
+}
+.w
+{
+	position: absolute;
+	top: 63%;
+	left: 3%;
+	font-family: "BM space A9";
+	font-size: 1.3em;
+	color: red;
+}
+.e
+{
+	position: absolute;
+	top: 63%;
+	left: 40%;
+	font-family: "BM space A9";
+	font-size: 1.3em;
+	color: red;
+}
+.r
+{
+	position: absolute;
+	top: 63%;
+	left: 67%;
+	font-family: "BM space A9";
+	font-size: 1.3em;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+#soundtrack
+{
+	background:url(imagenes/fondo1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 115vh;
+}
+#historia
+{
+	position: absolute;
+	background-image: url(imagenes/fondo2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 110vh;
+
+
+
+
+}
+#historia nav
+{
+	padding: 10px;
+}
+
+
+.titulo
+{
+	position:relative;
+	font-size: 3.5em;
+	top: 5%;
+	font-family: "Mongolian Baiti";
+    text-align: center;	
+	color: white;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+	
+}
+
+#soundtrack video
+{
+	top: -10%;
+	left: 50px;
+}
+
+
+.z
+{
+	
+	position:relative;
+	font-size: 1.5em;
+	top: 8%;
+	margin-left: 220px;
+	font-family:fantasy	;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+
+
+}
+.x
+{
+	position:relative;
+	font-size: 1.5em;
+	top: 40px;
+	margin-left: 720px;
+	font-family:fantasy	;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+}
+.c
+{
+	position:relative;
+	font-size: 1.5em;
+	top:15px;
+	margin-left: 1120px;
+	font-family:fantasy	;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+}
+.v
+{
+	position:relative;
+	font-size: 1.5em;
+	top:31%;
+	margin-left: 260px;
+	font-family:fantasy	;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+}
+.b
+{
+	position:relative;
+	font-size: 1.5em;
+	top:28%;
+	margin-left: 660px;
+	font-family:fantasy	;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+}
+.n
+{
+	position:relative;
+	font-size: 1.5em;
+	top:25%;
+	margin-left: 77%;
+	font-family:fantasy	;
+	text-shadow: 1px 4px 0px rgba(228, 193, 18, 0.8);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#historia h2
+{
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-family: "p5hatty";
+	font-size: 4.1em;
+	color:red;
+	text-shadow: 3px 6px 0px rgba(8, 0, 0, 0.8)
+
+
+}
+.t
+{
+	position: absolute;
+	top: 28%;
+	left: 10%;
+	font-family: "p5hatty";
+	font-size: 2.1em;
+    color:red;
+	text-shadow: 1px 4px 0px rgba(17, 9, 128, 0.558);
+
+}
+.y
+{
+	position: absolute;
+	top: 28%;
+	left: 40%;
+	font-family: "p5hatty";
+	font-size: 2.1em;
+    color:red;
+	text-shadow: 1px 4px 0px rgba(17, 9, 128, 0.558);
+
+}
+.u
+{
+	position: absolute;
+	top: 28%;
+	left: 70%;
+	font-family: "p5hatty";
+	font-size: 2.1em;
+    color:red;
+	text-shadow: 1px 4px 0px rgba(17, 9, 128, 0.558);
+
+}
+.i
+{
+	position: absolute;
+	top: 62%;
+	left: 10%;
+	font-family: "p5hatty";
+	font-size: 2.1em;
+    color:red;
+	text-shadow: 1px 4px 0px rgba(17, 9, 128, 0.558);
+
+}
+.o
+{
+	position: absolute;
+	top: 62%;
+	left: 40%;
+	font-family: "p5hatty";
+	font-size: 2.1em;
+    color:red;
+	text-shadow: 1px 4px 0px rgba(17, 9, 128, 0.558);
+
+}
+.p
+{
+	position: absolute;	
+	top: 62%;
+	left: 67%;
+	font-family: "p5hatty";
+	font-size: 2.1em;
+    color:red;
+	text-shadow: 1px 4px 0px rgba(17, 9, 128, 0.558);
+
+}
+
+#historia video
+{
+	top: 20%;
+}
